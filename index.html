@@ -1,0 +1,405 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" class="no-js" lang="@Lang">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <meta name="description" content="" />
+    <link rel="stylesheet" type="text/css" href="Frontend/Styles/style.min.css" />
+    <link id="font-awesome-css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="Frontend/Styles/ladda-themeless.min.css" />
+    <link rel="stylesheet" href="Frontend/Styles/remodal/remodal.css" />
+    <link rel="stylesheet" href="Frontend/Styles/remodal/remodal-default-theme.css" />
+    <link rel="stylesheet" href="Frontend/Styles/lightbox.min.css" />
+    <link rel="stylesheet" href="Frontend/Styles/hotspot.css" />
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+</head>
+<body>
+    <div class="remodal-bg site-wrapper">
+        <header class="navbar navbar-default navbar-static-top" role="banner">
+            <div class="container">
+                <div class="navbar-header">
+                    <div class="row">
+                        <a href="/" class="hidden-lg hidden-md hidden-sm col-xs-8"><img src="Frontend/Images/logo-main-updated.png" alt="Horizon Systems Logo" class="main-logo" /></a>
+                        <div class="col-xs-4">
+                            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+                    <ul id="mobile-menu" class="nav navbar-nav hidden-md hidden-lg hidden-sm">
+                        <li>
+                            <div class="header-search">
+                                <form id="searchform" action="/Search" method="get">
+                                    <div class="input-group">
+                                        <input type="text" name="q" class="form-control" placeholder="search" />
+                                        <span class="input-group-btn">
+                                            <button class="btn btn-default" type="submit"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+                                        </span>
+                                    </div>
+                                </form>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">Industries</a>
+                        </li>
+                        <li>
+                            <a href="#">Material Handling</a>
+                        </li>
+                        <li>
+                            <a href="#">Services</a>
+                        </li>
+                        <li>
+                            <a href="#">Products</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="row" style="position: relative;">
+                    <div class="header-phone">
+                        <span>1.800.842.1600</span>
+                        <div class="header-search hidden-xs">
+                            <form id="searchform" action="/Search" method="get">
+                                <div class="input-group">
+                                    <input type="text" name="q" class="form-control" placeholder="search" />
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-default" type="submit"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+                                    </span>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 hidden-xs" style="padding:0;">
+                        <ul id="left-menu" class="topmenu">
+                            <li class="col-md-6" style="text-align:center;">
+                                <a href="#">Industries</a>
+                            </li>
+                            <li class="col-md-6" style="text-align:center;">
+                                <a href="#">Material Handling</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 col-sm-4 logo-column hidden-xs"><a href="/"><img src="Frontend/Images/logo-main-updated.png" alt="Horizon Systems Logo" class="main-logo" /></a></div>
+                    <div class="col-md-4 col-sm-4 hidden-xs" style="padding:0;">
+                        <ul id="right-menu" class="topmenu">
+                            <li class="col-md-4" style="text-align:center;">
+                                <a href="#">Services</a>
+                            </li>
+                            <li class="col-md-4" style="text-align:center;">
+                                <a href="#">Products</a>
+                            </li>
+                            <li class="col-md-4" style="text-align:center;">
+                                <a href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="body-content">
+            <div class="container-fluid default-header-bar">
+                <img src="Frontend/Images/internal-header-bar.png" />
+            </div>
+            <div class="hotspot-container">
+          <img class="hotspot-img" src="Frontend/Images/Horizon_Production_Line_Image.png" alt="interactive image map"/>
+          <div id="hotspot-1" class="hotspot" data-toggle="modal" data-target="#modal-1"></div>
+          <div id="hotspot-2" class="hotspot" data-toggle="modal" data-target="#modal-2"></div>
+          <div id="hotspot-3" class="hotspot" data-toggle="modal" data-target="#modal-3"></div>
+          <div id="hotspot-4" class="hotspot" data-toggle="modal" data-target="#modal-4"></div>
+          <div id="hotspot-5" class="hotspot" data-toggle="modal" data-target="#modal-5"></div>
+          <div id="hotspot-6" class="hotspot" data-toggle="modal" data-target="#modal-6"></div>
+          <div id="hotspot-7" class="hotspot" data-toggle="modal" data-target="#modal-7"></div>
+          <div id="hotspot-8" class="hotspot" data-toggle="modal" data-target="#modal-8"></div>
+          <div class="modal fade" id="modal-1" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span>&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="hotspot-title">
+                    Rigid Intermediate Bulk Container Feeder Stand
+                  </div>
+                  <div class="hotspot-description">
+                    Our Insertable SideWinder™ Vent Filter features top loading filter media and offers easy media access, less downtime for maintenance and eliminates the need for confined space permitting. This is perhaps the most maintenance friendly filter available in the marketplace today.
+                  </div>
+                  <div class="embed-container">
+                    <iframe src="https://www.youtube.com/embed/sjRq48sJjCs" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowfullscreen></iframe>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <a class="btn btn-success" href="https://www.horizonpsi.com/Catalog/Products/Product-Details/insertable-sidewinder%E2%84%A2-swi-series" target="_blank">Go Product Page</a>
+                  <button class="btn btn-success btn-default" data-dismiss="modal">Cancel</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="modal-2" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span>&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="hotspot-title">
+                    Fixed Hopper and Feeder Arrangement
+                  </div>
+                  <div class="hotspot-description">
+                    Our Insertable SideWinder™ Vent Filter features top loading filter media and offers easy media access, less downtime for maintenance and eliminates the need for confined space permitting. This is perhaps the most maintenance friendly filter available in the marketplace today.
+                  </div>
+                  <div class="embed-container">
+                    <iframe src="https://www.youtube.com/embed/sjRq48sJjCs" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowfullscreen></iframe>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <a class="btn btn-success" href="https://www.horizonpsi.com/Catalog/Products/Product-Details/insertable-sidewinder%E2%84%A2-swi-series" target="_blank">Go Product Page</a>
+                  <button class="btn btn-success btn-default" data-dismiss="modal">Cancel</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="modal-3" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span>&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="hotspot-title">
+                    Silo Discharge Options
+                  </div>
+                  <div class="hotspot-description">
+                    Our Insertable SideWinder™ Vent Filter features top loading filter media and offers easy media access, less downtime for maintenance and eliminates the need for confined space permitting. This is perhaps the most maintenance friendly filter available in the marketplace today.
+                  </div>
+                  <div class="embed-container">
+                    <iframe src="https://www.youtube.com/embed/sjRq48sJjCs" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowfullscreen></iframe>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <a class="btn btn-success" href="https://www.horizonpsi.com/Catalog/Products/Product-Details/insertable-sidewinder%E2%84%A2-swi-series" target="_blank">Go Product Page</a>
+                  <button class="btn btn-success btn-default" data-dismiss="modal">Cancel</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="modal-4" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span>&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="hotspot-title">
+                    Insertable SideWinder® Vent Filter
+                  </div>
+                  <div class="hotspot-description">
+                    Our Insertable SideWinder™ Vent Filter features top loading filter media and offers easy media access, less downtime for maintenance and eliminates the need for confined space permitting. This is perhaps the most maintenance friendly filter available in the marketplace today.
+                  </div>
+                  <div class="embed-container">
+                    <iframe src="https://www.youtube.com/embed/sjRq48sJjCs" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowfullscreen></iframe>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <a class="btn btn-success" href="https://www.horizonpsi.com/Catalog/Products/Product-Details/insertable-sidewinder%E2%84%A2-swi-series" target="_blank">Go Product Page</a>
+                  <button class="btn btn-success btn-default" data-dismiss="modal">Cancel</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="modal-5" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span>&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="hotspot-title">
+                    Rigid Intermediate Bulk Container Loading Station
+                  </div>
+                  <div class="hotspot-description">
+                    Our Insertable SideWinder™ Vent Filter features top loading filter media and offers easy media access, less downtime for maintenance and eliminates the need for confined space permitting. This is perhaps the most maintenance friendly filter available in the marketplace today.
+                  </div>
+                  <div class="embed-container">
+                    <iframe src="https://www.youtube.com/embed/sjRq48sJjCs" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowfullscreen></iframe>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <a class="btn btn-success" href="https://www.horizonpsi.com/Catalog/Products/Product-Details/insertable-sidewinder%E2%84%A2-swi-series" target="_blank">Go Product Page</a>
+                  <button class="btn btn-success btn-default" data-dismiss="modal">Cancel</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="modal-6" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span>&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="hotspot-title">
+                    Bulk Bag Discharger Options – Hoist, Monorail and Forklift Series
+                  </div>
+                  <div class="hotspot-description">
+                    Our Insertable SideWinder™ Vent Filter features top loading filter media and offers easy media access, less downtime for maintenance and eliminates the need for confined space permitting. This is perhaps the most maintenance friendly filter available in the marketplace today.
+                  </div>
+                  <div class="embed-container">
+                    <iframe src="https://www.youtube.com/embed/sjRq48sJjCs" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowfullscreen></iframe>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <a class="btn btn-success" href="https://www.horizonpsi.com/Catalog/Products/Product-Details/insertable-sidewinder%E2%84%A2-swi-series" target="_blank">Go Product Page</a>
+                  <button class="btn btn-success btn-default" data-dismiss="modal">Cancel</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="modal-7" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span>&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="hotspot-title">
+                    Sanitary Small Bag Dump
+                  </div>
+                  <div class="hotspot-description">
+                    Our Insertable SideWinder™ Vent Filter features top loading filter media and offers easy media access, less downtime for maintenance and eliminates the need for confined space permitting. This is perhaps the most maintenance friendly filter available in the marketplace today.
+                  </div>
+                  <div class="embed-container">
+                    <iframe src="https://www.youtube.com/embed/sjRq48sJjCs" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowfullscreen></iframe>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <a class="btn btn-success" href="https://www.horizonpsi.com/Catalog/Products/Product-Details/small-bag-dump-idcu-series" target="_blank">Go Product Page</a>
+                  <button class="btn btn-success btn-default" data-dismiss="modal">Cancel</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="modal-8" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span>&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="hotspot-title">
+                    SideWinder® Filter/Receiver
+                  </div>
+                  <div class="hotspot-description">
+                    Our Insertable SideWinder™ Vent Filter features top loading filter media and offers easy media access, less downtime for maintenance and eliminates the need for confined space permitting. This is perhaps the most maintenance friendly filter available in the marketplace today.
+                  </div>
+                  <div class="embed-container">
+                    <iframe src="https://www.youtube.com/embed/sjRq48sJjCs" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowfullscreen></iframe>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <a class="btn btn-success" href="https://www.horizonpsi.com/Catalog/Products/Product-Details/sidewinder%E2%84%A2-filter-receiver-swr-dl-series" target="_blank">Go Product Page</a>
+                  <button class="btn btn-success btn-default" data-dismiss="modal">Cancel</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        <footer class="footer" role="contentinfo">
+            <img src="Frontend/Images/bottom-content-grey-curve.png" class="bottom-content-curve" style="width:100%;margin-bottom:7px;background-color:#fff;" />
+
+            <div class="container" style="margin-top:20px;">
+                <div class="row">
+                    <div class="col-md-3 col-sm-3 footer-location">
+                        <img src="Frontend/Images/webLogo_footer.png" alt="Horizon Systems Logo" style="max-width:130px;" />
+                        <address>
+                            1101 Horizon Drive<br />
+                            Lawrence, Kansas 66046-4951 USA
+                        </address>
+                    </div>
+                    <div class="col-md-6 col-sm-9 hidden-xs footer-links">
+                        <ul class="footer-navigation">
+                            <li>
+                                <a href="#">Careers</a>
+                            </li>
+                            <li>
+                                <a href="#">About Us</a>
+                                <ul style="list-style-type:none;">
+                                    <li><a href="#">Vision</a></li>
+                                    <li><a href="#">Management</a></li>
+                                    <li><a href="#">Privacy Policy</a></li>
+
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Newsletter</a>
+                            </li>
+                            <li>
+                                <a href="#">Sitemap</a>
+                            </li>
+                            <li>
+                                <a href="#">Resource Center</a>
+                                <ul style="list-style-type: none;">
+                                    <li><a href="#">Media</a></li>
+                                    <li><a href="#">Brochures</a></li>
+                                    <li><a href="#">Videos</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-12 footer-social">
+                        <h5 class="text-right">1.800.842.1600</h5>
+                        <h5 class="text-right">1.785.842.1299</h5>
+                        <div class="pull-right">
+                            <div id="social-list">
+                                <a class="grey-icon" href="/Contact"><i class="fa fa-envelope"></i></a>
+                                <a href="https://www.facebook.com/HorizonSystemsInc" target="_blank" onClick="ga('send', 'event', 'Social Icon', 'Click', 'Facebook');"><i class="fa fa-facebook"></i></a>
+                                <a href="https://twitter.com/Horizon_Systems" target="_blank" onClick="ga('send', 'event', 'Social Icon', 'Click', 'Twitter');"><i class="fa fa-twitter"></i></a>
+                                <a href="http://www.linkedin.com/company/344740" target="_blank" onClick="ga('send', 'event', 'Social Icon', 'Click', 'LinkedIn');"><i class="fa fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </footer>
+    </div>
+    <script id="jquery-js" src="https://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="Frontend/Scripts/bootstrap/bootstrap.min.js"></script>
+    <script type="text/javascript" src="Frontend/Scripts/ie10-viewport-bug-workaround.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="Frontend/Scripts/validator.min.js"></script>
+    <script src="Frontend/Scripts/spin.min.js"></script>
+    <script src="Frontend/Scripts/ladda.min.js"></script>
+    <script src="Frontend/Scripts/ladda.jquery.min.js"></script>
+    <script src="Frontend/Scripts/accordion.js"></script>
+    <script src="Frontend/Scripts/HorizonSlider.js"></script>
+    <script src="Frontend/Scripts/lightbox.min.js"></script>
+    <script src="Frontend/Scripts/hotspot.js"></script>
+</body>
+</html>

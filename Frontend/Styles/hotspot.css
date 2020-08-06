@@ -1,0 +1,98 @@
+.hotspot-container {
+    position: relative;
+}
+
+.hotspot-img {
+    width: 100%;
+}
+
+.hotspot {
+    background: #198ab6;
+    border: 1px solid #ffffff;
+    border-radius: 50px;
+    opacity: 0.8;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+}
+
+.hotspot:hover {
+    background: red;
+}
+
+.hotspot-title {
+    font-size: 30px;
+    color: #0095ff;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.hotspot-container-title {
+    text-align: center;
+}
+
+.embed-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#hotspot-1 {
+    top: 71%;
+    left: 61%;
+}
+
+#hotspot-2 {
+    top: 66%;
+    left: 78.5%;
+}
+
+#hotspot-3 {
+    top: 74%;
+    left: 10.8%;
+}
+
+#hotspot-4 {
+    top: 24%;
+    left: 9.8%;
+}
+
+#hotspot-5 {
+    top: 64%;
+    left: 30%;
+}
+
+#hotspot-6 {
+    top: 66%;
+    left: 42%;
+}
+
+#hotspot-7 {
+    top: 72%;
+    left: 64.5%;
+}
+
+#hotspot-8 {
+    top: 57%;
+    left: 90.3%;
+}
+
+.modal-header::before, .modal-header::after {
+    display: table;
+    content: " ";
+    clear: both;
+}
+
+.footer {
+    position: relative;
+}
+
+.body-content {
+    padding-bottom: 0px;
+}
+
+@media screen and (max-width: 600px) {
+  .hotspot {
+        width: 10px;
+        height: 10px;
+    }
+}

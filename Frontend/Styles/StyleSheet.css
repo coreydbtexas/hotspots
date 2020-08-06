@@ -1,0 +1,49 @@
+﻿/* Font Family: Open Sans */
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+body {
+    font-size: 14px;
+    color: #333;
+}
+
+a {
+    color: #198ab6;
+}
+
+a:hover, a:focus {
+    color: #23527c;
+    text-decoration: underline;
+}
+
+/*Buttons*/
+.product-spec-button, .horizon-red-button {
+    font-family: 'Open Sans', Arial ,sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #ab2c2b;
+    padding: .8em 1em .8em 1em;
+    margin: 1.5em auto;
+    display: block;
+    min-width: 245px;
+}
+
+/* Additional Colors */
+/*
+    Maroon - #8b0004
+*/

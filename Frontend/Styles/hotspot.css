@@ -108,6 +108,7 @@
     border-color: #198ab6 !important;
     color: #ffffff !important;
     outline: none !important;
+    width: 150px;
 }
 
 button.close {

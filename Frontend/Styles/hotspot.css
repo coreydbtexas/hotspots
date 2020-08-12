@@ -20,6 +20,7 @@
 .hotspot:hover {
     background: red;
     cursor: pointer;
+    z-index: 1;
 }
 
 .hotspot-title {

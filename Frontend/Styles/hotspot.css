@@ -8,27 +8,25 @@
 
 .hotspot {
     background: #198ab6;
-    border: 1px solid #ffffff;
+    border: 2px solid #ffffff;
     border-radius: 50px;
-    opacity: 0.8;
-    width: 15px;
-    height: 15px;
+    opacity: 0.9;
+    width: 20px;
+    height: 20px;
     position: absolute;
+    box-shadow: 0px 0px 10px #000;
 }
 
 .hotspot:hover {
     background: red;
+    cursor: pointer;
 }
 
 .hotspot-title {
-    font-size: 30px;
-    color: #0095ff;
+    font-size: 16px;
+    color: #198ab6;
     font-weight: bold;
     margin-bottom: 10px;
-}
-
-.hotspot-container-title {
-    text-align: center;
 }
 
 .embed-container {
@@ -61,19 +59,33 @@
     left: 30%;
 }
 
+.default-header-bar img {
+    border-bottom: 5px solid #ab2b2b; 
+}
+
 #hotspot-6 {
     top: 66%;
     left: 42%;
 }
 
 #hotspot-7 {
-    top: 72%;
-    left: 64.5%;
+    top: 72.2%;
+    left: 64.4%;
 }
 
 #hotspot-8 {
     top: 57%;
-    left: 90.3%;
+    left: 90.4%;
+}
+
+.hotspot-tooltip {
+    width: 100%;
+    height: 100%;
+}
+
+.tooltip-inner {
+  white-space:nowrap;
+  max-width:none;
 }
 
 .modal-header::before, .modal-header::after {
@@ -90,9 +102,60 @@
     padding-bottom: 0px;
 }
 
-@media screen and (max-width: 600px) {
-  .hotspot {
+.hotspot-btn {
+    background-color: #198ab6;
+    border-color: #198ab6 !important;
+    color: #ffffff !important;
+    outline: none !important;
+}
+
+button.close {
+    outline: none !important;
+    opacity: 0.8;
+}
+
+button.close > span {
+    color: #198ab6;
+}
+
+.hotspot-btn:hover {
+    background-color: #ffffff !important;
+    color: #198ab6 !important;
+}
+
+.modal-footer {
+    text-align: center;
+}
+
+.embed-container > iframe {
+    width: 100%;
+    height: 234px;
+}
+
+@media (min-width: 500px) {
+    .modal-dialog {
+        width: 480px;
+        margin: 30px auto;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .hotspot {
+        width: 15px;
+        height: 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hotspot {
         width: 10px;
         height: 10px;
+        border: 1px solid #ffffff;
+    }
+}
+
+@media (max-width: 400px) {
+    .embed-container > iframe {
+        height: 150px;
     }
 }

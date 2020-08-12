@@ -6,4 +6,6 @@ $(document).ready(function() {
         vidsrc_frame.attr('src', '');
         vidsrc_frame.attr('src', vidsrc_src);
     });
+
+    $('[data-toggle="tooltip"]').tooltip();
 });

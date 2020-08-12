@@ -130,7 +130,7 @@ button.close > span {
 
 .embed-container > iframe {
     width: 100%;
-    height: 234px;
+    height: 300px;
 }
 
 @media (min-width: 500px) {
@@ -157,6 +157,6 @@ button.close > span {
 
 @media (max-width: 400px) {
     .embed-container > iframe {
-        height: 150px;
+        height: 200px;
     }
 }

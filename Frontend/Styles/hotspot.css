@@ -25,7 +25,7 @@
 
 .hotspot-title {
     font-size: 16px;
-    color: #198ab6;
+    color: #8b0004;
     font-weight: bold;
     margin-bottom: 10px;
 }
@@ -34,7 +34,7 @@
     position:absolute;
     left:0;
     right:0;
-    margin-top: 7%;
+    top: 25%;
     text-align: center;
 }
 
@@ -44,28 +44,28 @@
 }
 
 #hotspot-1 {
-    top: 71%;
-    left: 61%;
+    top: 76%;
+    left: 60.5%;
 }
 
 #hotspot-2 {
-    top: 66%;
-    left: 78.5%;
+    top: 72.7%;
+    left: 77.5%;
 }
 
 #hotspot-3 {
-    top: 74%;
-    left: 10.8%;
+    top: 79%;
+    left: 12%;
 }
 
 #hotspot-4 {
-    top: 24%;
-    left: 9.8%;
+    top: 39%;
+    left: 11%;
 }
 
 #hotspot-5 {
-    top: 64%;
-    left: 30%;
+    top: 71%;
+    left: 30.7%;
 }
 
 .default-header-bar img {
@@ -73,18 +73,18 @@
 }
 
 #hotspot-6 {
-    top: 66%;
-    left: 42%;
+    top: 73%;
+    left: 42.3%;
 }
 
 #hotspot-7 {
-    top: 72.2%;
-    left: 64.4%;
+    top: 77.6%;
+    left: 63.85%;
 }
 
 #hotspot-8 {
-    top: 57%;
-    left: 90.4%;
+    top: 65%;
+    left: 88.8%;
 }
 
 .hotspot-tooltip {
@@ -185,6 +185,12 @@ button.close > span {
     }
 }
 
+@media screen and (max-width: 991px) and (min-width: 768px) {
+    .hotspot-header {
+        top: 20%;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .hotspot {
         width: 10px;
@@ -207,9 +213,12 @@ button.close > span {
 
 @media (max-width: 576px) {
     .hotspot-header {
-        display: none;
+        margin-top: 2px;
+        padding-top: 30px;
+        position: relative;
+        background-color: #bdbdbd;
     }
     .hotspot-copy {
-        display: none;
+        margin-top: 0;
     }
 }

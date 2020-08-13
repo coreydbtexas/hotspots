@@ -18,7 +18,7 @@
 }
 
 .hotspot:hover {
-    background: red;
+    background: #8b0004;
     cursor: pointer;
     z-index: 1;
 }
@@ -28,6 +28,14 @@
     color: #198ab6;
     font-weight: bold;
     margin-bottom: 10px;
+}
+
+.hotspot-header {
+    position:absolute;
+    left:0;
+    right:0;
+    margin-top: 7%;
+    text-align: center;
 }
 
 .embed-container {
@@ -112,6 +120,12 @@
     margin-top: 2px;
 }
 
+.hotspot-copy {
+    margin-top: 2px;
+    padding-top: 30px;
+    background-color: #bdbdbd;
+}
+
 button.close {
     outline: none !important;
     opacity: 0.8;
@@ -127,6 +141,23 @@ button.close > span {
 }
 
 .modal-footer {
+    text-align: center;
+}
+
+.learn-more-btn {
+    color: #ffffff;
+    background-color: #828282;
+}
+
+.copy-title {
+    color: #8b0004;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.learn-more-container {
     text-align: center;
 }
 
@@ -171,5 +202,14 @@ button.close > span {
 @media (max-width: 370px) {
     .modal-footer .btn+.btn {
         margin-left: 0px;
+    }
+}
+
+@media (max-width: 576px) {
+    .hotspot-header {
+        display: none;
+    }
+    .hotspot-copy {
+        display: none;
     }
 }

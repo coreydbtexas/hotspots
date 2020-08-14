@@ -13,6 +13,7 @@
     opacity: 0.9;
     width: 20px;
     height: 20px;
+    margin-left: -2.5px;
     position: absolute;
     box-shadow: 0px 0px 10px #000;
 }
@@ -45,7 +46,7 @@
 
 #hotspot-1 {
     top: 76%;
-    left: 60.5%;
+    left: 60.55%;
 }
 
 #hotspot-2 {
@@ -65,7 +66,7 @@
 
 #hotspot-5 {
     top: 71%;
-    left: 30.7%;
+    left: 30.8%;
 }
 
 .default-header-bar img {
@@ -79,7 +80,7 @@
 
 #hotspot-7 {
     top: 77.6%;
-    left: 63.85%;
+    left: 63.95%;
 }
 
 #hotspot-8 {

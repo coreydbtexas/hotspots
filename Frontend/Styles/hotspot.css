@@ -34,7 +34,7 @@
     position:absolute;
     left:0;
     right:0;
-    top: 25%;
+    margin-top: -38%;
     text-align: center;
 }
 
@@ -182,12 +182,6 @@ button.close > span {
     .hotspot {
         width: 15px;
         height: 15px;
-    }
-}
-
-@media screen and (max-width: 991px) and (min-width: 768px) {
-    .hotspot-header {
-        top: 20%;
     }
 }
 
